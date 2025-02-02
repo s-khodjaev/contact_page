@@ -17,6 +17,8 @@ body {
 
 h1 {
   margin-bottom: 10px;
+  font-weight: 600;
+  color: #1c00b5;
 }
 
 .container p {
@@ -33,15 +35,21 @@ h1 {
   padding: 40px 60px;
 }
 
-h2 {
-  margin-bottom: 20px;
-}
-
 .contact-right {
   flex-basis: 40%;
   padding: 40px;
   background-color: #1c00b5;
   color: #fff;
+}
+
+.contact-left h2 {
+  color: #1c00b5;
+  margin-bottom: 20px;
+}
+
+.contact-right h2 {
+  color: #fff;
+  font-weight: 600;
 }
 
 .input-row {
@@ -85,4 +93,12 @@ button {
   border-radius: 5px;
   margin-top: 15px;
   cursor: pointer;
+}
+
+tr td:first-child {
+  padding-right: 20px;
+}
+
+tr td {
+  padding-top: 20px;
 }
